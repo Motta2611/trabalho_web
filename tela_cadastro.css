@@ -23,12 +23,13 @@ body {
 }
 
 .form-image {
-    width: 50%;
-    display: flex;
+    width: 90%;
+    display:inline-table;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fde3a7d7;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .form-image img {
@@ -36,8 +37,8 @@ body {
 }
 
 .form {
-    width: 70%;
-    display: flex;
+    width: 90%;
+    display:inline-table;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -52,17 +53,17 @@ body {
 }
 
 .login-button {
-    display: flex;
-    align-items: center;
+        background-color: dodgerblue;
+        border: none;
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        tez
 }
 
-.login-button button {
-    border: none;
-    background-color: #6c63ff;
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 .login-button button:hover {
     background-color: #6b63fff1;
